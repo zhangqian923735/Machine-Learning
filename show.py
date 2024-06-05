@@ -1,5 +1,7 @@
 from matplotlib import pyplot as plt
 from sklearn import tree
+from DT import clf
+
 class_names = ['success', 'failure']
 feature_names = ['Sodium alginate concentration','Calcium chloride concentration','Flow rate','Oil: Water','Shear rate']
 fig = plt.figure(figsize=(15,15))
