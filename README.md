@@ -1,1 +1,1 @@
-# Some methods for classifying the shape of magnetic microspheres
+# Some methods for classifying the shape of magnetic microspheres.
