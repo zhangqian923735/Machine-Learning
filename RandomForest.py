@@ -2,7 +2,7 @@ from sklearn.ensemble import RandomForestClassifier
 import sklearn.metrics as metrics
 from data import X_train, X_test, y_train, y_test
 
-rfc = RandomForestClassifier(n_estimators=100)
+rfc = RandomForestClassifier(n_estimators=50, max_depth = 4, min_samples_leaf = 1)
 rfc.fit(X_train, y_train)
 
 # 使用随机森林对测试集进行预测
